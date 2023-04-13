@@ -5,10 +5,10 @@ namespace IndianStatesAnalyzerTests
     public class Tests
     {
         StateCensusAnalyzer analyzer = new StateCensusAnalyzer();
-        public string stateCensusFileIncorrect = @"E:\Users\Ganesh\Documents\BL Excercise\IndianStatesCensusAnalyzer\IndianStatesAnalyzerTests\File\StateCensusData1.csv";
-        public string typeIncorrect = @"E:\Users\Ganesh\Documents\BL Excercise\IndianStatesCensusAnalyzer\IndianStatesAnalyzerTests\File\StateCensusData.txt";
-        public string delimeterIncorrect = @"E:\Users\Ganesh\Documents\BL Excercise\IndianStatesCensusAnalyzer\IndianStatesAnalyzerTests\File\StateCensusDataDelimeter.csv";
-        public string headerIncorrect = @"E:\Users\Ganesh\Documents\BL Excercise\IndianStatesCensusAnalyzer\IndianStatesAnalyzerTests\File\StateCensusDataHeader.csv";
+        public string stateCensusFileIncorrect = @"E:\Users\Ganesh\Documents\BL Excercise\IndianStatesCensusAnalyzer\IndianStatesAnalyzerTests\File\StateCode1.csv";
+        public string typeIncorrect = @"E:\Users\Ganesh\Documents\BL Excercise\IndianStatesCensusAnalyzer\IndianStatesAnalyzerTests\File\StateCode.txt";
+        public string delimeterIncorrect = @"E:\Users\Ganesh\Documents\BL Excercise\IndianStatesCensusAnalyzer\IndianStatesAnalyzerTests\File\StateCodeDelimeter.csv";
+        public string headerIncorrect = @"E:\Users\Ganesh\Documents\BL Excercise\IndianStatesCensusAnalyzer\IndianStatesAnalyzerTests\File\StateCodeHeader.csv";
         [Test]
         public void GuivenCensusDataFileIncorrect_WhenAalyze_ShouldThrowException()
         {

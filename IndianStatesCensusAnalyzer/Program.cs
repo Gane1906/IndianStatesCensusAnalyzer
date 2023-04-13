@@ -7,7 +7,7 @@ namespace IndianStatesAnalyzer
         static void Main(string[] args)
         {
             StateCensusAnalyzer analyzer = new StateCensusAnalyzer();
-            Console.WriteLine(analyzer.ReadStateCensusData(@"E:\Users\Ganesh\Documents\BL Excercise\IndianStatesCensusAnalyzer\IndianStatesAnalyzerTests\File\StateCensusData.csv"));
+            Console.WriteLine(analyzer.ReadStateCensusData(@"E:\Users\Ganesh\Documents\BL Excercise\IndianStatesCensusAnalyzer\IndianStatesAnalyzerTests\File\StateCode.csv"));
         }
     }
 }
